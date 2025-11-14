@@ -7,7 +7,7 @@ import joblib
 # -----------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("model.pkl")
+    return joblib.load("concrete_data.pkl")
 
 model = load_model()
 
